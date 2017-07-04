@@ -1,0 +1,7 @@
+resources:
+  cache:
+    type: redis
+services:
+  web:
+    image: httpd
+    port: 80
