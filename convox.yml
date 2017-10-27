@@ -3,5 +3,15 @@ resources:
     type: redis
 services:
   web:
+    domain: ${DOMAIN}
+    environment:
+      - FOO
+      - BAR=
+      - BAZ=qux
     image: httpd
     port: 80
+timers:
+  tick:
+    schedule: "* * * * ?"
+    service: web
+    command: ls -la
