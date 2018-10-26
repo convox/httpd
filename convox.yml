@@ -1,5 +1,6 @@
 services:
   web:
-    domain: ${HOST}
+    environment:
+      - FOO=baz
     image: httpd
     port: 80
