@@ -1,5 +1,4 @@
 services:
   web:
-    domain: ${DOMAIN}
     image: httpd
     port: 80
