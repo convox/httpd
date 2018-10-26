@@ -1,7 +1,7 @@
 services:
   web:
-    environment:
-      - FOO=
     domain: ${DOMAIN}
+    environment:
+      - FOO=test
     image: httpd
     port: 80
