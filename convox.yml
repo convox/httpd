@@ -1,6 +1,6 @@
 services:
   web:
     environment:
-      - FOO=bazzz
+      - FOO=bazz
     image: httpd
     port: 80
