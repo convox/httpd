@@ -2,6 +2,6 @@ services:
   web:
     domain: ${DOMAIN}
     environment
-      - FOO=barrrrr
+      - FOO=barrrr
     image: httpd
     port: 80
